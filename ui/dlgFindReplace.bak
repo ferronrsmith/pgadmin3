@@ -60,13 +60,8 @@
           <object class="spacer">
             <size>0,0d</size>
           </object>
-           <object class="sizeritem">
-                <object class="wxCheckBox" name="chkOptionsAllFind">
-                  <label>All find tabs</label>
-                  <tooltip>All find tabs</tooltip>
-                </object>
-                <flag>wxALIGN_CENTRE_VERTICAL|wxTOP|wxLEFT|wxRIGHT</flag>
-                <border>4</border>
+          <object class="spacer">
+            <size>0,0d</size>
           </object>
           <object class="sizeritem">
             <object class="wxButton" name="wxID_REPLACEALL">
