@@ -856,8 +856,8 @@ void frmMain::OnShortCut(wxCommandEvent& event)
 		//ctlShortCut* cb = new ctlShortCut(wxTheApp->GetTopWindow(), wxID_ANY, ps, wxDefaultSize);
 		//dlgshrcut = new dlgShortCut(this, wxID_ANY, wxDefaultPosition, wxDefaultSize);
 		select_shortcut = wxEmptyString;
-		dlgShortCut dlg(this, wxID_ANY, ps, wxDefaultSize);
-		dlg.ShowModal();
+		// dlgShortCut dlg(this, wxID_ANY, ps, wxDefaultSize);
+		// dlg.ShowModal();
 		wxString path;
 		bool add = false;
 		if (select_shortcut.IsEmpty()) return;
